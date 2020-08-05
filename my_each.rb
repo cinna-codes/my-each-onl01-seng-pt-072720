@@ -6,5 +6,5 @@ def my_each(collection) # put argument(s) here
     arr << yield(collection[num])
     num += 1
   end
-  arr
+  collection
 end
