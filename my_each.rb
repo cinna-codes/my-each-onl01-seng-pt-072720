@@ -4,7 +4,7 @@ def my_each(collection) # put argument(s) here
   arr = []
   while num < collection.length
     arr << yield(collection[num])
-    i += 1
+    num += 1
   end
   arr
 end
